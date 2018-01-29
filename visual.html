@@ -89,11 +89,13 @@
       </div>
     </div>
     <style type="text/css">
+    /*remember 272822*/
       html, body {
         margin: 0;
         font-family: arial, "Microsoft YaHei";
         background-color: #272822;
         color: #FEFEFE;
+        /*also FEFEFE*/
       }
       #fileWrapper{
         transition:all 0.5s ease;
@@ -294,9 +296,9 @@
             capYPositionArray = []; ////store the vertical position of hte caps for the preivous frame
         ctx = canvas.getContext('2d'),
           gradient = ctx.createLinearGradient(0, 0, 0, 300);
-        gradient.addColorStop(1, '#0f0');
-        gradient.addColorStop(0.5, '#ff0');
-        gradient.addColorStop(0, '#f00');
+        gradient.addColorStop(1, '#0f6');
+        gradient.addColorStop(0.5, '#a0f');
+        gradient.addColorStop(0, '#f09');
         var drawMeter = function() {
           var array = new Uint8Array(analyser.frequencyBinCount);
           analyser.getByteFrequencyData(array);
