@@ -1,0 +1,133 @@
+ <!DOCTYPE html>
+<html>
+  <head>
+<style type='text/css'>
+  .button {<!--www.java2s.com-->
+    background-color: white;
+    opacity: 1.0;
+    transition: opacity .05s linear;
+    -webkit-transition: opacity 0.5s linear;
+    -o-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+  }
+
+  .button:hover {
+    opacity: 0.7;
+  }
+</style>
+<style type="text/css">
+      /* Navbar container */
+      .navbar {
+        overflow: hidden;
+        background-color: #333;
+        font-family: Arial;
+      }
+
+      /* Links inside the navbar */
+      .navbar a {
+        float: left;
+        font-size: 16px;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+      }
+
+      /* The dropdown container */
+      .dropdown {
+        float: left;
+        overflow: hidden;
+      }
+
+      /* Dropdown button */
+      .dropdown .dropbtn {
+        font-size: 16px;
+        border: none;
+        outline: none;
+        color: white;
+        padding: 14px 16px;
+        background-color: inherit;
+      }
+
+      /* Add a red background color to navbar links on hover */
+      .navbar a:hover, .dropdown:hover .dropbtn {
+        background-color: red;
+      }
+
+      /* Dropdown content (hidden by default) */
+      .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #f9f9f9;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+      }
+
+      /* Links inside the dropdown */
+      .dropdown-content a {
+        float: none;
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        text-align: left;
+      }
+
+      /* Add a grey background color to dropdown links on hover */
+      .dropdown-content a:hover {
+        background-color: #ddd;
+      }
+
+      /* Show the dropdown menu on hover */
+      .dropdown:hover .dropdown-content {
+        display: block;
+      }
+    </style>
+    <link rel="stylesheet" href="Style.css" type="text/css" media="screen" />
+    <script src="jquery-1.11.0.min.js">
+    </script>
+<script src="jquery-migrate-1.2.1.min.js">
+</script>
+<script type='text/javascript' src='js/infinite-rotator.js'>
+</script>
+  </head>
+  <body>
+    <div class="navbar">
+      <a href="index.html" class="button">Home</a>
+      <a href="MoreInformation.html" class="button">MoreInfo</a>
+      <div class="dropdown">
+        <button class="dropbtn" id="overide">Dropdown
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="memes.html" class="button">Memes</a>
+          <a href="visual.html" class="button">Visualization</a>
+          <a href="youtube.html" class="button">Video</a>
+        </div>
+      </div>
+    </div>
+    <!-- START: Rotating Images -->
+        <div id="rotating-item-wrapper">
+          <img src="images/random/image 1.jpg" alt="a person entering a building" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 2.jpg" alt="photo of building across from our office" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 3.jpg" alt="building entrance with neon backlit walls" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 4.gif" alt="building lobby window reflections" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 5.jpg" alt="reflection on building windows" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 6.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 7.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 8.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 9.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 10.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 11.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 12.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 13.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 14.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 15.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 16.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+          <img src="images/random/image 17.jpg" alt="two manequines in window" class="rotating-item" width="980" height="700" />
+        </div>
+        <!-- END: Rotating images images -->
+  </body>
+</html>
